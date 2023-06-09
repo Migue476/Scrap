@@ -134,7 +134,7 @@ $(".modal-transparent").on('hidden.bs.modal', function () {
          <div class="col-md-4"></div>
          <div class="col-md-4">
                <div class="page-header">
-                 <center><h1 class="colors">Parqueadero Web</h1></center>
+                 <center><h1 class="colors">Parking Utsoe</h1></center>
                </div>
          </div>
          <div class="col-md-4"></div>
