@@ -5,6 +5,7 @@ require 'mysqlConnect.php';
 <?php
 if(isset($_POST['register'])){
   $name=mysqli_real_escape_string($con,$_POST['name']);
+  $apellido=mysqli_real_escape_string($con,$_POST['apellido']);
 	$email=mysqli_real_escape_string($con,$_POST['email']);
 	$password=mysqli_real_escape_string($con,$_POST['password']);
     $password_confirm=mysqli_real_escape_string($con,$_POST['password_confirm']);
